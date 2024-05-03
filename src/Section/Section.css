@@ -1,0 +1,66 @@
+h2 {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+#h2-section {
+    margin: 95px 0 55px 0;
+}
+
+section {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.slider-section {
+    max-width: 900px;
+  }
+
+.containers {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 267px;
+    height: 561px;
+    position: relative;
+}
+
+.p {
+    text-align: left;
+    line-height: 25px;
+}
+
+.button {
+    color: #487B94;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    width: 120px;
+    align-self: flex-end;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.button:hover {
+    color: #9ad0ea;
+    transform: scale(1.1);
+
+}
+
+h5 {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.h5-section {
+    text-align: left;
+    padding: 32px 0 13px 0;
+}

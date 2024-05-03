@@ -1,0 +1,31 @@
+.slider-h4 {
+  font-size: 16px;
+  text-align: left;
+  margin: 16px 0 4px 16px;
+}
+
+.slider-section {
+  max-width: 900px;
+}
+
+.section2-button {
+  margin-top: 45px;
+  color: #487b94;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  height: 25px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  width: 144px;
+  align-self: flex-end;
+  bottom: 0;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.section2-button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

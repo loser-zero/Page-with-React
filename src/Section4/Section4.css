@@ -1,0 +1,39 @@
+.section4 {
+  margin-top: 60px;
+  width: 100%;
+  height: 425px;
+}
+
+.section-container {
+  margin: 0 auto;
+  max-width: 900px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+#second-p {
+  margin-top: 20px;
+}
+
+#section-4-button {
+  margin-top: 29px;
+  height: 50px;
+  width: 166px;
+  background-color: #17120f;
+  color: white;
+  font-size: 16px;
+  align-items: center;
+  border: none;
+  transition: transform 0.2s;
+}
+
+#section-4-button:hover {
+  transform: scale(1.1);
+  border: none;
+  cursor: pointer;
+}
+
+#h3section4 {
+  margin-top: 90px;
+}
